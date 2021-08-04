@@ -10,7 +10,7 @@ a{
     box-shadow: 0px 0px 10px -2px #0f111a;
 }
 .nav{
-    max-width: 930px;
+    max-width: 1000px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

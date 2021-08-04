@@ -1,0 +1,10 @@
+@media screen and (max-width: 960px) {
+    div.featured-product-row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    div.featured-product{
+        margin: 10px 0px;
+    }
+}

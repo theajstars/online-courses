@@ -3,6 +3,10 @@
 @import url('./jumbo.css');
 @import url('./products.css');
 @import url('./courses.css');
+@import url('./featured-products.css');
+
+
+@import url('./small_screens/style.css');
 html{
     scroll-behavior: smooth;
 }
