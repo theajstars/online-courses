@@ -14,14 +14,21 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 35px 10px;
+    padding: 24px 10px;
+    height: fit-content;
     box-sizing: border-box;
+    transition: 10.2s;
+}
+.nav-none{
+    display: none;
+}
+.nav-active{
+    display: flex;
 }
 .nav-logo{
     font-weight: 700;
     font-size: 1.3rem;
 }
-.nav-items{}
 .nav-item{
     font-style: normal;
     font-weight: 500;
@@ -39,7 +46,7 @@ a{
 }
 .login, .join{
     border-radius: 5px;
-    padding: 15px 25px;
+    padding: 10px 22px;
     font-size: 14px;
     line-height: 22px;
 }
