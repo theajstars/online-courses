@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    height: 300px;
+    min-height: 250px;
 }
 hr.products-hr{
     margin: 0px;
@@ -21,6 +21,9 @@ hr.products-hr{
     border: none;
 
 }
+.products-header{
+    font-weight: 600;
+}
 .products-header, .products-section-details p{
     text-align: left;
 }
@@ -28,6 +31,7 @@ hr.products-hr{
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.2px;
+    font-weight: 500;
 }
 .package-learn-more{
     color: rgba(35, 166, 240, 1);
