@@ -13,15 +13,15 @@
 .open-menu, .close-menu{
     color: #ffffff;
     font-size: 1.5rem;
-    padding: 15px;
+    padding: 7px;
     position: fixed;
     cursor: pointer;
     display: none;
     border-radius: 10px;
 }
 .open-menu{
-    right: 30px;
-    top: 30px;
+    right: 15px;
+    top: 10px;
     background-color: #252B42;
 }
 .close-menu{
