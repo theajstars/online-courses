@@ -14,4 +14,14 @@ $(document).ready(() => {
         }
 
     }
+    document.querySelector('.open-menu').addEventListener('click', () => {
+        document.querySelector('.small-nav-container').style.display = 'flex'
+        document.querySelector('.close-menu').style.display = 'block'
+        document.querySelector('.open-menu').style.display = 'none'
+    })
+    document.querySelector('.close-menu').addEventListener('click', () => {
+        document.querySelector('.small-nav-container').style.display = 'none'
+        document.querySelector('.close-menu').style.display = 'none'
+        document.querySelector('.open-menu').style.display = 'block'
+    })
 })

@@ -17,7 +17,7 @@ a{
     padding: 24px 10px;
     height: fit-content;
     box-sizing: border-box;
-    transition: 10.2s;
+    transition: 0.2s;
 }
 .nav-none{
     display: none;
@@ -38,10 +38,13 @@ a{
     letter-spacing: 0.2px;
     margin: 0px 16px;
 }
+.nav-item:hover{
+    color: rgb(212, 212, 212);
+}
 .nav-actions a{
     margin: 0px 13px;
 }
-.join, .login, .nav-item{
+.join, .login, .nav-item, .learn-more, .get-quote{
     transition: 0.15s;
 }
 .login, .join{
@@ -53,9 +56,12 @@ a{
 .login{
     background: transparent;
 }
-.login:hover{
+.login:hover, .learn-more:hover{
     background: rgba(18, 21, 33, 0.2);
 }
 .join{
     background: #23A6F0;
+}
+.join:hover, .get-quote:hover{
+    background-color: #0c6ea7;
 }

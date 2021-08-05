@@ -1,7 +1,9 @@
 .products-section{
     display: flex;
     flex-direction: row;
-    max-width: 900px;
+    max-width: 950px;
+    padding: 0px 20px;
+    box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
     min-height: 800px;

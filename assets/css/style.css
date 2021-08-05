@@ -4,9 +4,13 @@
 @import url('./products.css');
 @import url('./courses.css');
 @import url('./featured-products.css');
+@import url('./small_screens/small_nav.css');
 
 
 @import url('./small_screens/style.css');
+/* *{
+    border: 1px solid red;
+} */
 html{
     scroll-behavior: smooth;
 }

@@ -9,6 +9,7 @@
     height: 120px;
     width: fit-content;
     text-align: left;
+    padding: 0px 0px;
 }
 .featured-products-header p{
     font-size: 13px;
