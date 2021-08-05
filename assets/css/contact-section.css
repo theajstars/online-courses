@@ -28,6 +28,7 @@
     width: 60vw;
     box-sizing: border-box;
     padding: 10px 25px ;
+    max-width: 840px;
 }
 .subscribe-button{
     background: #23A6F0;
