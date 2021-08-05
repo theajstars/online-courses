@@ -44,9 +44,7 @@ a{
 .nav-actions a{
     margin: 0px 13px;
 }
-.join, .login, .nav-item, .learn-more, .get-quote{
-    transition: 0.15s;
-}
+
 .login, .join{
     border-radius: 5px;
     padding: 10px 22px;
@@ -62,6 +60,6 @@ a{
 .join{
     background: #23A6F0;
 }
-.join:hover, .get-quote:hover{
+.join:hover, .get-quote:hover, .subscribe-button:hover{
     background-color: #0c6ea7;
 }

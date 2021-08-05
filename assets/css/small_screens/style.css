@@ -10,6 +10,10 @@
     div.featured-product{
         margin: 10px 0px;
     }
+    div.footer-section{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 @media screen and (max-width: 800px) {
     div.jumbotron{
@@ -39,6 +43,12 @@
     }
     div.product-card{
         width: 180px;
+    }
+    div.footer-side-1, div.footer-side-2{
+        flex-direction: column;
+    }
+    div.footer-item{
+        margin: 20px 0px;
     }
 }
 @media screen and (max-width: 400px) {
